@@ -5,7 +5,7 @@ made by Feed The Beast at https://feed-the-beast.com
 Modpack for Minecraft 1.18.2.</br>
 In a world surrounded by stone, build yourself a subterranean kingdom that really rocks! Use magic and technology to forge your realm to your designs.
 
-<img src="https://apps.modpacks.ch/modpacks/art/96/stoneblock_logo.png" width="338" height="338">
+<img src="https://apps.modpacks.ch/modpacks/art/96/stoneblock_logo.png" width="256" height="256">
 
 NOTE: In compliance with Mojang "End User License Agreement", you will need to agree to the EULA in order to run your own Minecraft server. By using this container you acknowledge the EULA! If you do not agree, then you are not permitted to use this container!
 https://account.mojang.com/documents/minecraft_eula
