@@ -1,4 +1,5 @@
-# ftb-stoneblock-3 - latest
+# ftb-stoneblock-3
+
 Feed The Beast StoneBlock 3 modpack
 made by Feed The Beast at https://feed-the-beast.com
 
@@ -10,7 +11,7 @@ In a world surrounded by stone, build yourself a subterranean kingdom that reall
 NOTE: In compliance with Mojang "End User License Agreement", you will need to agree to the EULA in order to run your own Minecraft server. By using this container you acknowledge the EULA! If you do not agree, then you are not permitted to use this container!
 https://account.mojang.com/documents/minecraft_eula
 
-The worldname must be the default "world". 
+The worldname must be the default "world".
 Settings will reset when upgrading.
 Access the console to op and whitelist.
 
@@ -37,5 +38,5 @@ Tips:
 </br>Say Hi!: <code>echo "say Hi!" | socat EXEC:"docker attach [name of your container]",pty STDIN</code>
 </br>Say CPU and RAM usage: <code>echo "say $(docker stats [name of your container] --no-stream --format "table CPU: {{.CPUPerc}} RAM: {{.MemPerc}}" | sed -n -e 2p)" | socat EXEC:"docker attach [name of your container]",pty STDIN</code>
 
-The first time the server starts it creates the server.properties file with default settings and spawns "world". 
+The first time the server starts it creates the server.properties file with default settings and spawns "world".
 Not recommended to change these settings by hand.
